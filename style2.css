@@ -1,0 +1,622 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    width: 1100px;
+    height: 44px;
+    margin: 5px auto;
+    justify-content: center;
+    align-items: center
+}
+
+.sub-header1, .sub-header2 {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    color: #0065fe;
+}
+
+
+.wrapper{
+    margin: 0;
+    position:relative;
+}
+
+div{
+    display: block;
+}
+.hero{
+    margin: 0;
+    background-image: linear-gradient( to right, rgba(200, 192, 203, 0.5), rgba(255, 255, 200, 0.2) );
+    position: relative;
+    padding-bottom: 50px;
+}
+section{
+    display: block;
+}
+
+img{
+overflow-clip-margin: content-box;
+    overflow: clip;
+}
+nav{
+    display: flex;
+    flex: 3 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+nav li{
+    list-style-type: none;
+
+}
+.Link1 a {
+    color: #0065fe;
+}
+nav li a, select {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+background-color: rgba(210, 192, 221, 0.001);
+border: 0px;
+outline: 0px;
+
+}
+.sub-header2{
+    gap: 19px;
+
+}
+.sub-header2 button {
+    background-color: #0065fe;
+    color: white;
+    border-radius: 18px;
+    border: 1px solid #0065fe;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.cerruti p {
+        text-align: center;
+        font-family: "Gilroy-Bold";
+        font-size: 48px;
+        line-height: 96px;
+        color: #141414;
+        margin-bottom: 0px;
+        padding: 0;
+        font-weight: bold;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+}
+.cerruti p span {
+    color: rgb(20, 80, 240);
+    color: rgb(0, 101, 255);
+    font-weight: bold;
+    font-family: "Gilroy-Bold";
+}
+.shortening {
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ceru1 p, .seamless p {
+    text-align: center;
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 28px;
+    color: #141414;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.sign_up{
+        display: flex;
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+}
+.Draw{
+    margin: 50px 30px 0px 250px;
+}
+.circle{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.Deskstop-10 {
+    background-color: white;
+    margin: 0;
+    padding: 0 24px 24px 80px;
+}
+.One-Stop {
+    display: flex;
+}
+.One-Stop p{
+        font-family: "Gilroy-Bold";
+        font-size: 40px;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+}
+.One-Stop p span{
+    color: rgb(0, 101, 255);
+    font-weight: bold;
+    font-family: "Gilroy-Bold";
+}
+
+.point2 {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    flex: 0.8;
+}
+.scissors {
+    display: flex;
+    margin-top: 100px;
+}
+.Why {
+    flex: 2;
+}
+.line-sign {
+    height: 30px;
+    margin-right: 10px;
+}
+.scissors span{
+        color: rgb(0, 101, 255);
+        font-weight: bold;
+        font-family: "Gilroy-Bold";
+}
+
+/* remember to edit*/
+.point2 {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.point2a {
+    margin-left: 20px;
+}
+.service1 .service2{
+    flex: 1.5;
+}
+.service1a{
+
+}
+
+.point1 {
+    font-family: Gilroy-SemiBold;
+    font-size: 32px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+}
+.point1 p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+}
+.point2 {
+    font-family:Gilroy-Medium;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    flex: 0.8;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.service1b .service2b {
+    margin-top: 80px;
+}
+
+/* section desktop 1 */
+.deskstop-1 {
+    margin: 0;
+    background-color: white;
+    padding: 24px;
+}
+
+.deskstop1-head, .deskstop1-head .point2 {
+    text-align: center;
+}
+.deskstop1-head {
+    margin-top: 80px;
+}
+/* identify and rectify*/
+.possibilities .p2, .why strong, #deskstop-1 strong {
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+strong {
+    font-weight: bold;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic {
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+}
+.basic, .teams {
+    border: 1px solid #0065fe;
+}
+.basic, .professional, .teams {
+    flex-basis: 300px;
+    margin-top: 50px;
+}
+
+.basic p:first-child, .professional p:first-child, .teams p:first-child {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.third {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.check {
+    color: #141414;
+    font-weight: normal;
+    vertical-align: middle;
+}
+.professional, .professional p span {
+    background-color: rgb(5, 50, 80);
+    color: white;
+}
+.professional {
+    height: 450px;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+.basic, .professional, .teams {
+    flex-basis: 300px;
+    margin-top: 50px;
+}
+.basic p:first-child, .professional p:first-child, .teams p:first-child {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.professional p:first-child {
+    margin-top: 45px;
+}
+
+.teams {
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+}
+.basic, .teams {
+    border: 1px solid #0065fe;
+}
+.basic, .professional, .teams {
+    flex-basis: 300px;
+    margin-top: 50px;
+}
+.pricing {
+    text-align: center;
+}
+
+.pricing button:first-child {
+    color: #0065fe;
+    background-color: white;
+}
+.pricing button {
+    padding: 10px;
+    width: 140px;
+    margin: 50px 10px;
+    border-radius: 20px;
+    border: 1px solid #0065fe;
+}
+
+.pricing button + button {
+    background-color: #0065fe;
+    color: white;
+}
+.pricing button {
+    padding: 10px;
+    width: 140px;
+    margin: 50px 10px;
+    border-radius: 20px;
+    border: 1px solid #0065fe;
+}
+.deskstop-11 {
+    position: relative;
+    padding: 30px;
+    background-color: rgb(5, 50, 80);
+}
+.darkTop2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 390px;
+    width: 780px;
+}
+.front {
+    color: #0065fe;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.paste {
+    color: #0065fe;
+    width: 380px;
+    padding: 10px;
+    border: 1px solid #0065fe;
+    border-radius: 10px;
+}
+
+.choose-type {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.choose, .type {
+    padding: 10px;
+    border: 1px solid #0065fe;
+    border-radius: 10px;
+    color: #0065fe;
+    flex: 1;
+}
+select {
+    background-color: rgba(210, 192, 221, 0.001);
+    border: 0px;
+    outline: 0px;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.trim {
+    width: 400px;
+    padding: 10px;
+    background-color: #0065fe;
+    color: white;
+    border: 1px solid #0065fe;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.intro1 {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.4);
+    bottom: 0;
+    left: 0;
+}
+
+/* section Faqs*/
+.faqUpImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 630px;
+}
+.qa {
+    background-color: inherit;
+}
+
+.qa p:first-of-type {
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+.FAQs {
+    margin: 0;
+    padding: 5px 250px 150px;
+    background-color: white;
+    position: relative;
+    padding-top: 0;
+    text-align: center;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: normal;
+}
+
+.faqDownImage {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.revolution {
+    margin: 0;
+    padding: 40px;
+    position: relative;
+    background-color: rgb(5, 50, 80);
+}
+
+.darkTop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+}
+.FAQs .question span {
+    color: #141414;
+}
+.qa p span:first-of-type {
+    color: #141414;
+}
+
+.question span {
+    font-weight: normal;
+}
+.intro1 {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.4);
+    bottom: 0;
+    left: 0;
+}
+span {
+    color: rgb(0, 101, 255);
+    font-weight: bold;
+    font-family: "Gilroy-Bold";
+}
+.revolution {
+    margin: 0;
+    padding: 40px;
+    position: relative;
+    background-color: rgb(5, 50, 80);
+}
+.revo p {
+    text-align: center;
+    color: white;
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0em;
+    margin-top: 50px;
+}
+.revo button {
+    background-color: #0065fe;
+    border-radius: 20px;
+    padding: 10px 25px;
+    border: 1px solid #0065fe;
+    color: white;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.darkTop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+}
+.darkBottom2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 700px;
+}
+.darkBottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+}
+.footer {
+    margin: 0;
+    background-color: white;
+    padding: 24px;
+    position: relative;
+}
+
+.footDownImage {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 320px;
+}
+.footUpImage {
+    position: absolute;
+    left: 0;
+    height: 460px;
+}
+.footy {
+    margin-left: 130px;
+    background-color: inherit;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.foot1 {
+    flex: 2;
+    margin-top: 15px;
+}
+.social {
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+}
+.foot {
+    flex: 1.5;
+}
+.resources {
+    margin-top: 50px;
+}
+.feat {
+    margin-top: 30px;
+}
+.foot {
+    flex: 1.5;
+}
+
+.footend {
+    display: flex;
+    width: 400px;
+    position: absolute;
+    right: 20px;
+    gap: 10px;
+    justify-content: center;
+    bottom: 20px;
+}
+.footend span {
+    color: #141414;
+    font-weight: normal;
+}
+
+.demacate {
+    width: 0;
+    height: 20px;
+    border: 0.8px solid #141414;}
