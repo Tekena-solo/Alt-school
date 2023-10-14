@@ -1,0 +1,44 @@
+Arithmetic Operators:
+
++, -, *, /, %: Used for performing basic arithmetic operations on numeric variables.
+Assignment Operators:
+
+=: Assigns a value to a variable.
++=: Appends a value to an existing variable.
+
+Comparison Operators:
+
+==: Tests if two values are equal.
+!=: Tests if two values are not equal.
+<: Tests if the left operand is less than the right operand.
+<=: Tests if the left operand is less than or equal to the right operand.
+>: Tests if the left operand is greater than the right operand.
+>=: Tests if the left operand is greater than or equal to the right operand.
+Logical Operators:
+
+&&: Performs a logical AND operation.
+||: Performs a logical OR operation.
+!: Performs a logical NOT operation.
+
+String Operators:
+
+=: Tests if two strings are equal.
+!=: Tests if two strings are not equal.
+-n: Tests if a string is not empty.
+-z: Tests if a string is empty.
+: (colon): Used for pattern matching and substitution in string operations.
+
+File Test Operators:
+
+-e: Checks if a file exists.
+-f: Checks if a file is a regular file.
+-d: Checks if a file is a directory.
+-r: Checks if a file is readable.
+-w: Checks if a file is writable.
+-x: Checks if a file is executable.
+
+
+
+
+
+
